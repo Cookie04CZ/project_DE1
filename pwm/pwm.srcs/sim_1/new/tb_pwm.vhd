@@ -12,14 +12,13 @@ end tb_pwm;
 architecture tb of tb_pwm is
    constant max_count_bits : positive:= 21;
     component pwm
-        port (en      : in std_logic;
+        port (
               rst     : in std_logic;
               clk     : in std_logic;
               duty_in : in unsigned (max_count_bits -1 downto 0);
               pwm_out : out std_logic);
     end component;
 
-    signal en      : std_logic;
     signal rst     : std_logic;
     signal clk     : std_logic;
     signal duty_in : unsigned (max_count_bits -1 downto 0);
@@ -32,7 +31,7 @@ architecture tb of tb_pwm is
 begin
 
     dut : pwm
-    port map (en      => en,
+    port map (
               rst     => rst,
               clk     => clk,
               duty_in => duty_in,
@@ -47,7 +46,7 @@ begin
     stimuli : process
     begin
         -- ***EDIT*** Adapt initialization as needed
-        en <= '0';
+
         duty_in <= (others => '0');
 
         -- Reset generation
@@ -57,7 +56,7 @@ begin
         rst <= '0';
         wait for 100 ns;
         
-        en <= '1';
+
         -- ***EDIT*** Add stimuli here
         duty_in <= "000011001100110011010";
         wait for 100ms;

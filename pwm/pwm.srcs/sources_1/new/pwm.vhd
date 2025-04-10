@@ -5,8 +5,7 @@ use IEEE.numeric_std.all;
 
 entity pwm is
     generic(max_count_bits : positive := 21);
-    Port ( en : in STD_LOGIC;
-           rst : in STD_LOGIC;
+    Port (rst : in STD_LOGIC;
            clk : in STD_LOGIC;
            duty_in : in unsigned(max_count_bits -1 downto 0);
            pwm_out : out STD_LOGIC);
@@ -24,7 +23,7 @@ if(rising_edge(clk)) then
     if(rst ='1') then
         sig_pwm_out <= '0';
         sig_count <=  (others => '0');
-    elsif(en='1') then
+    else
         sig_count <= sig_count + 1;
         sig_pwm_out <= '0';
         if sig_count < duty_in then
