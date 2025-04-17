@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sw_input.srcs/sources_1/new/sw_input.vhd" \
+"../../../../sw_input.srcs/sim_1/new/sw_input_tb.vhd" \
+
+# Do not sort compile order
+nosort
