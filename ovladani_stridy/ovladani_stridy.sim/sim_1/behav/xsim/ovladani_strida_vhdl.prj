@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../ovladani_stridy.srcs/sources_1/new/ovladani_strida.vhd" \
-
-# Do not sort compile order
-nosort

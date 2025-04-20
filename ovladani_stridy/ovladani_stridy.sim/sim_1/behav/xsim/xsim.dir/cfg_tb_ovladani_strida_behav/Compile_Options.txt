@@ -1,1 +1,0 @@
--wto "d4ce478502fd461ab5cefc5aa1245a39" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "cfg_tb_ovladani_strida_behav" "xil_defaultlib.cfg_tb_ovladani_strida" -log "elaborate.log" 
