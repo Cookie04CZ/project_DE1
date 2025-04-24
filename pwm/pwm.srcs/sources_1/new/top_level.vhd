@@ -34,9 +34,12 @@ use IEEE.NUMERIC_STD.ALL;
 entity top_level is
     Port ( BTNC : in STD_LOGIC;
            BTNL : in STD_LOGIC;
+           BTNU : in STD_LOGIC;
+           BTND : in STD_LOGIC;
            BTNR : in STD_LOGIC;
            CLK100MHZ : in STD_LOGIC;
-           JB1 : out STD_LOGIC);
+           JB1 : out STD_LOGIC;
+           JB2: out std_logic);
 end top_level;
 
 architecture Behavioral of top_level is
@@ -48,17 +51,66 @@ generic(max_count_bits : positive);
            clk : in STD_LOGIC;
            duty_in : in unsigned(max_count_bits -1 downto 0);
            pwm_out : out STD_LOGIC);
+end component;           
+component duty_counter is
+    generic(min_duty : unsigned :="000011000011010100000";
+            max_duty : unsigned :="000110000110101000000");
+    Port ( rst: in STD_logic;
+           clk : in STD_LOGIC;
+           en_down : in STD_LOGIC;
+           en_up : in STD_LOGIC;
+           duty : out unsigned (20 downto 0));
 end component;
-signal sig_duty : unsigned;
+
+component clock_en is
+  generic (
+    n_periods : integer := 3 --! Default number of clk periodes to generate one pulse
+  );
+  port (
+    clk   : in    std_logic; --! Main clock
+    rst   : in    std_logic; --! High-active synchronous reset
+    pulse : out   std_logic  --! Clock enable pulse signal
+  );
+end component;
+signal sig_duty : unsigned(20 downto 0);
+signal sig_duty_led : unsigned(20 downto 0);
+signal sig_clk : std_logic;
 begin
 
-pwm_servp : pwm
+pwm_led : pwm 
+generic map( max_count_bits => 21)
+    port map(
+        rst => BTNC,
+        clk => CLK100MHZ,
+        duty_in => sig_duty_led,
+        pwm_out => JB2);
+pwm_servo : pwm
     generic map( max_count_bits => 21)
     port map(
         rst => BTNC,
         clk => CLK100MHZ,
         duty_in => sig_duty,
         pwm_out => JB1);
-    
+duty_count_led : duty_counter
+    --generic map( min_duty => "000000000000000000000", max_duty => "111101000010010000000")
+    port map(
+        rst => BTNC,
+        clk => sig_clk,
+        en_down => BTND,
+        en_up => BTNU,
+        duty => sig_duty_led);
+duty_count : duty_counter
+    port map(
+        rst => BTNC,
+        clk => sig_clk,
+        en_down => BTNL,
+        en_up => BTNR,
+        duty => sig_duty);
+ clk_en : clock_en
+    generic map( n_periods => 1000)
+    port map(
+        rst => BTNC,
+        clk => CLK100MHZ,
+        pulse => sig_clk);
 
 end Behavioral;
