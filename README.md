@@ -1,16 +1,18 @@
-# project_DE1
+# Projekt DE1
 # Team members
 Jan Baňař - Hlavní programátor\
-Filip Hojer - Hlavní programátor
-Filip Křivánek - Pomocný programátor
+Filip Hojer - Hlavní programátor\
+Filip Křivánek - Pomocný programátor\
 František Kajtár - Pomocný programátor
 
-# PWM Generator in VHDL
-## Abstract
-Rozhodli jsme se pro vytvoření PWM-servo motor ovladač a ovládání jasu LED. Ovládání Jak mezi servem a ledkou se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat pro LED stav jasu v % a pro servo úhel natočení motoru. Konkrétní ovládání bude vysvětleno níže.
+# PWM Generator ve VHDL
+## Popis
+Rozhodli jsme se pro vytvoření PWM-servo motor ovladače a ovládání jasu LED. Ovládání mezi servem a ledkou se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat pro LED stav jasu v procentech a pro servo úhel natočení. Konkrétní ovládání bude vysvětleno níže.
 
-## Hardware description of demo application
+## Hardware popis
+Jako servo motor využijeme SG90 spojený s deskou Nexys A7-50T.
 
+## Software popis
 
 ## Components
 - **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).
