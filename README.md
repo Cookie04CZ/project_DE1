@@ -10,9 +10,10 @@ František Kajtár - Pomocný programátor
 Rozhodli jsme se pro vytvoření PWM-servo motor ovladače a ovládání jasu LED. Ovládání mezi servem a ledkou se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat pro LED stav jasu v procentech a pro servo úhel natočení. Konkrétní ovládání bude vysvětleno níže.
 
 ## Hardware popis
-Jako servo motor využijeme SG90 spojený s deskou Nexys A7-50T.
+Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.
 
 ## Software popis
+
 
 ## Components
 - **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).
