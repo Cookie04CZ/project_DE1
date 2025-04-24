@@ -1,6 +1,6 @@
 # project_DE1
 # Team members
-Jan Baňař - Hlavní programátor
+Jan Baňař - Hlavní programátor\
 Filip Hojer - Hlavní programátor
 Filip Křivánek - Pomocný programátor
 František Kajtár - Pomocný programátor
