@@ -21,22 +21,22 @@ Schéma zapojení
 **OBRAZEK schematu Toplevelu**
 
 ## Components and simulations 
-- `top_level.vhd` - **Top Level Module**:: 
+`top_level.vhd` - **Top Level Module**:\
 **OBRAZEK SIMULACE**
 
-- `pwm.vhd` - **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).
+`pwm.vhd` - **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).\
 **OBRAZEK SIMULACE**
 
-- `dec2seg.vhd`
+`dec2seg.vhd`\
 **OBRAZEK SIMULACE**
 
-- `dec2duty.vhd`
+`dec2duty.vhd`\
 **OBRAZEK SIMULACE**
 
-- `sw_input.vhd`
+`sw_input.vhd`\
 **OBRAZEK SIMULACE**
 
-- `clk_enable.vhd`
+`clk_enable.vhd`\
 **OBRAZEK SIMULACE**
 
 ## Instructions
