@@ -18,7 +18,8 @@ Schéma zapojení
 
 
 ## Software popis
-**OBRAZEK schematu Toplevelu**
+**TOPLEVEL**
+![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)
 
 ## Components and simulations 
 `top_level.vhd` - **Top Level Module**:\
