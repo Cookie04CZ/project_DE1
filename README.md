@@ -18,23 +18,23 @@ Schéma zapojení
 
 
 ## Software popis
-**TOPLEVEL**
+**TOPLEVEL**\
 ![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)
 
-## Components and simulations 
+## Komponenty a simulace
 `top_level.vhd` - **Top Level Module**:\
 **OBRAZEK SIMULACE**
 
-`pwm.vhd` - **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).\
+`pwm.vhd` - Generuje PWM signál závislý na vstupních parametrech.\
 **OBRAZEK SIMULACE**
 
-`dec2seg.vhd`\
+`dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a zobrazí ho na 7 segmentovém displeji.\
 **OBRAZEK SIMULACE**
 
-`dec2duty.vhd`\
+`dec2duty.vhd` - Převádní úhel v decimálním čísle na střídu.\
 **OBRAZEK SIMULACE**
 
-`sw_input.vhd`\
+`sw_input.vhd` - Převede binární vstup na úhel.\
 **OBRAZEK SIMULACE**
 
 `clk_enable.vhd`\
