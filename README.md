@@ -1,4 +1,5 @@
 # Projekt DE1
+> [!IMPORTANT]
 > *Funkční projekt se nachází ve branchi/složce [project_v1](project_v1). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.*
 # Team members
 Jan Baňař - Hlavní programátor\
