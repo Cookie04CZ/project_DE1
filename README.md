@@ -1,14 +1,14 @@
 # Projekt DE1
-Funkční projekt se nachází ve složce [Project_v1](project_v1)
+> *Funkční projekt se nachází ve branchi/složce [project_v1](project_v1). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.*
 # Team members
 Jan Baňař - Hlavní programátor\
 Filip Hojer - Hlavní programátor\
-Filip Křivánek - Pomocný programátor\
-František Kajtár - Pomocný programátor
+Filip Křivánek - Pomocný programátor, readme\
+František Kajtár - Pomocný programátor, readme
 
 # PWM Generator ve VHDL
 ## Popis
-Rozhodli jsme se pro vytvoření PWM-servo motor ovladače a ovládání jasu LED. Ovládání mezi servem a ledkou se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat pro LED stav jasu v procentech a pro servo úhel natočení. Konkrétní ovládání bude vysvětleno níže.
+Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM-servo motor ovladače (a ovládání jasu LED když budeme časově stíhat). Ovládání mezi servama (a ledkou) se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat stav, neboli úhel natočení. Konkrétní ovládání bude vysvětleno [níže](#Instructions).
 
 ## Hardware popis
 Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.
