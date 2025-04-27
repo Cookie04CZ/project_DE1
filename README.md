@@ -1,5 +1,5 @@
 # Projekt DE1
-Funkční projekt se nachází ve složce [Project_v1](projext_DE1/project_v1)
+Funkční projekt se nachází ve složce [Project_v1](project_v1)
 # Team members
 Jan Baňař - Hlavní programátor\
 Filip Hojer - Hlavní programátor\
