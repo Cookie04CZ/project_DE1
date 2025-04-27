@@ -18,11 +18,13 @@ Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.
 
 
 ## Components
-- **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).
+- `pwm.vhdl` - **PWM Generator**: The main entity that generates the PWM signal based on input parameters (frequency, duty cycle).
+
+
 - **Top Level Module**: A simple wrapper to instantiate and connect the PWM generator to the rest of the system (clock input, output signals, etc.).
 
 ## Files
-- `pwm_generator.vhdl`: VHDL code for the PWM generator module.
+- `pwm.vhdl`: VHDL code for the PWM generator module.
 - `top_module.vhdl`: Top-level wrapper module connecting the PWM generator to the input/output ports.
 - `testbench.vhdl`: A testbench to simulate and verify the functionality of the PWM generator.
 - `Makefile`: Build automation script (optional, depending on your environment).
