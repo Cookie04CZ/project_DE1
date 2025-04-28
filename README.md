@@ -1,4 +1,4 @@
-# Projekt DE1
+# 🗒️Projekt DE1
 > [!IMPORTANT]
 > *Funkční projekt se nachází ve branchi/složce [project_v2](project_v2). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.*
 # Team members
