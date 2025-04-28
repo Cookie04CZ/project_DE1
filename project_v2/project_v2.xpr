@@ -61,7 +61,7 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="nexys-a7-50t"/>
-    <Option Name="WTXSimLaunchSim" Val="27"/>
+    <Option Name="WTXSimLaunchSim" Val="30"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -98,6 +98,60 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_v1/project_v1.srcs/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd"/>
+          <Attr Name="ImportTime" Val="1745844212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_DE1-main/display/display.srcs/sources_1/new/bin2seg.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_v1/project_v1.srcs/sources_1/imports/project_DE1-main/display/display.srcs/sources_1/new/bin2seg.vhd"/>
+          <Attr Name="ImportTime" Val="1745844212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/new/dec2seg.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_v1/project_v1.srcs/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/new/dec2seg.vhd"/>
+          <Attr Name="ImportTime" Val="1745844212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_v1/project_v1.srcs/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd"/>
+          <Attr Name="ImportTime" Val="1745844212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_DE1-main/sw_input/sw_input.srcs/sources_1/new/sw_input.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_v1/project_v1.srcs/sources_1/imports/project_DE1-main/sw_input/sw_input.srcs/sources_1/new/sw_input.vhd"/>
+          <Attr Name="ImportTime" Val="1745844212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/imports/new/clock_enable.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_v1/project_v1.srcs/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/imports/new/clock_enable.vhd"/>
+          <Attr Name="ImportTime" Val="1745844212"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="buff"/>
@@ -111,17 +165,25 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <File Path="$PSRCDIR/sim_1/imports/new/dec2seg_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../dec2seg/dec2seg.srcs/sim_1/new/dec2seg_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1745171857"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sim_1/new/buff_tb.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="cfg_tb_buff"/>
+        <Option Name="TopModule" Val="cfg_tb_dec2seg"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SelectedSimModel" Val="rtl"/>
