@@ -8,12 +8,12 @@ Filip Křivánek - Pomocný programátor, readme\
 František Kajtár - Pomocný programátor, readme
 
 # PWM Generator ve VHDL
-## Popis
+## 🗨️Popis
 Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM pro řízení servomotoru ve VHDL. Projekt se zaměřuje na návrh a implementaci **PWM (Pulse Width Modulation)** pro **nezávislé** řízení dvou servomotorů. Každé servo je ovládáno samostatně v rozsahu **0-90°** změnou šířky PWM pulzů. Námi vytvořený VHDL kód generuje signál s pevnou periodou a proměnnou délkou pulzu, která určuje požadovanou polohu serva.
 
 Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat zvolené servo, jeho aktuální stav a uživatelem zadávaný úhel. Konkrétní ovládání bude vysvětleno [níže](#Instrukce). V plánu bylo zprovoznit i ovládání jasu LED, ale z časových důvodů jsme to již nestihli. 
 
-## Hardware
+## 🔩Hardware
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)
 
 **Jako servomotory použijeme dva SG90.**\
@@ -22,12 +22,12 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 **Zapojení obou serv a pinout desky**\
 <img src="https://github.com/user-attachments/assets/7d748c2d-951e-407e-a203-209422bdae0c" alt="Sample Image" width="350" height="120">
 
-## Software
+## 👨🏻‍💻Software
 **TOPLEVEL**\
 ![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)
 > **TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
 
-## Komponenty a simulace
+## 📊Komponenty a simulace
 `top_level.vhd` - **Top Level Module**:\
 > **OBRAZEK SIMULACE**
 
@@ -52,7 +52,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 `clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
 > **OBRAZEK SIMULACE?**
 
-# Instrukce
+# ❗Instrukce
 ## Stažení projektu
 Celý projekt se nachází [zde](#Instrukce).
 > Přidat odkaz na finální projekt
