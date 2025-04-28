@@ -29,6 +29,9 @@ Schéma zapojení
 `pwm.vhd` - Generuje PWM signál závislý na vstupních parametrech.\
 **OBRAZEK SIMULACE**
 
+`buff.vhd` - **POPIS**\
+![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
+
 `dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a zobrazí ho na 7 segmentovém displeji.\
 **OBRAZEK SIMULACE**
 
