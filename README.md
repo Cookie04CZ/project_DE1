@@ -60,7 +60,7 @@ Zapojení obou serv\
 5) Pro druhé servo přepneme spínač do opačné polohy
 
 > [!WARNING]
-> Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko.
+> Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko. Také zde máme 8 switchů pro zadání úhlu, to jsme ve finálním projektu snížili na 6.
 
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**\
 ![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
