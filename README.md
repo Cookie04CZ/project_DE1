@@ -16,16 +16,17 @@ Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegm
 ## Hardware popis
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)
 
-<p align="center">
-**Jako servomotory použijeme dva SG90.**\
-<img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" align="center" width="500" height="300">
 
+**Jako servomotory použijeme dva SG90.**\
+<p align="center">
+<img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" align="center" width="500" height="300">
+</p>
 
 **Pinout serva SG90**\
 <p align="center">
 <img src="https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76" alt="Sample Image" align="center" width="500" height="230">
+</p>
 
-![Image](https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76)\
 Zapojení obou serv\
 ![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)
 </p>
