@@ -2,10 +2,10 @@
 > [!IMPORTANT]
 > *Funkční projekt se nachází ve branchi/složce [project_v2](project_v2). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.*
 # 🙋🏻Team members
-Jan Baňař - Hlavní programátor, vedoucí skupinky\
-Filip Hojer - Hlavní programátor,\
-Filip Křivánek - Pomocný programátor, readme\
-František Kajtár - Pomocný programátor, readme
+**Jan Baňař** - Hlavní programátor, vedoucí skupinky\
+**Filip Hojer** - Hlavní programátor,\
+**Filip Křivánek** - Pomocný programátor, readme\
+**František Kajtár** - Pomocný programátor, readme
 
 # PWM Generator ve VHDL
 ## 🗨️Popis
