@@ -1,6 +1,6 @@
 # Projekt DE1
 > [!IMPORTANT]
-> Funkční projekt se nachází ve branchi/složce [project_v1](project_v1). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.
+> *Funkční projekt se nachází ve branchi/složce [project_v2](project_v2). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.*
 # Team members
 Jan Baňař - Hlavní programátor, vedoucí skupinky\
 Filip Hojer - Hlavní programátor,\
@@ -69,7 +69,7 @@ Celý projekt se nachází [zde](#Instrukce).
 6) Pro zvolení druhého serva, přepneme spínač do druhé pozice a ovládáme stejnými kroky.
 
 > [!WARNING]
-> Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko. Také zde máme 8 switchů pro zadání úhlu, to jsme ve finálním projektu snížili na 6.
+> *Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko. Také zde máme 8 switchů pro zadání úhlu, to jsme ve finálním projektu snížili na 6.*
 
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**\
 ![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
