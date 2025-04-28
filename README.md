@@ -59,8 +59,8 @@ Zapojení obou serv\
 4) Sledujeme natočení serva na potvrzený úhel a změnění aktuální hodnoty na displeji.
 5) Pro druhé servo přepneme spínač do opačné polohy
 
-> [!IMPORTANT]
-> Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neúplné zobrazování na displeji a funkčního porvrzovacího tlačítka.
+> [!WARNING]
+> Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko.
 
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**\
 ![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
