@@ -23,7 +23,7 @@ Jako servomotory použijeme dva SG90.
 
 Pinout serva SG90\
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76" alt="Sample Image" align="center" width="500" height="300">
+<img src="https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76" alt="Sample Image" align="center" width="500" height="230">
 </p>
 ![Image](https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76)\
 Zapojení obou serv\
