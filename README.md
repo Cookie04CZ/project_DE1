@@ -59,11 +59,12 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 **Schéma boardy Nexys A7-50T s popisky**
 ![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)
 ## Popis ovládání
-1) Pro zadání úhlu pro konkrétní servo vybereme levým spínačem (SW16) pozici nahoře (1. servo), nebo dole (2. servo).\ 
+1) Levým spínačem (SW16) vybereme servo, které chceme ovládat. Pozicí nahoře (1. servo), nebo dole (2. servo).\ 
 2) Pro nastavení úhlu využíváme 6 spínačů zprava (SW1-6). Hodnota na spínačích se zadává binárně, ovšem na displeji sledujeme aktuální decimální hodnotu zadávaného úhlu v pravé části displeje.
 3) Potvrzujeme pravým tlačítkem (BTNR). Aktuální úhel serva vidíme vpravo od čísla určující ovládané servo.
 4) Sledujeme natočení serva na potvrzený úhel a změnění aktuální hodnoty na displeji.
-5) Pro druhé servo přepneme spínač do opačné polohy
+5) Pro vyresetování úhlu stiskneme prostřední tlačítko (BTNC). Servo se otočí zpět na pozici 0°.
+6) Pro zvolení druhého serva, přepneme spínač do druhé pozice a ovládáme stejnými kroky.
 
 > [!WARNING]
 > Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko. Také zde máme 8 switchů pro zadání úhlu, to jsme ve finálním projektu snížili na 6.
