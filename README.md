@@ -35,7 +35,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > **OBRAZEK SIMULACE**
 
 `buff.vhd` - **POPIS**\
-![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
+> ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
 `dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
 > **OBRAZEK SIMULACE**
