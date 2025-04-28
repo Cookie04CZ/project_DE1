@@ -34,7 +34,7 @@ Zapojení obou serv\
 `buff.vhd` - **POPIS**\
 ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
-`dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a zobrazí ho na 7 segmentovém displeji.\
+`dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
 **OBRAZEK SIMULACE**
 
 `dec2duty.vhd` - Převádní úhel v decimálním čísle na střídu.\
@@ -43,12 +43,20 @@ Zapojení obou serv\
 `sw_input.vhd` - Převede binární vstup na úhel.\
 **OBRAZEK SIMULACE**
 
-`clk_enable.vhd`\
-**OBRAZEK SIMULACE**
+`bin2seg.vhd` - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
+**OBRAZEK SIMULACE?**
+
+`clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
+**OBRAZEK SIMULACE?**
 
 ## Instrukce
-# Schéma boardy Nexys A7-50T s popisky
+**Schéma boardy Nexys A7-50T s popisky**
 ![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)
+1) Pro zadání úhlu pro konkrétní servo vybereme levým spínačem (SW16) pozici nahoře (1. servo), nebo dole (2. servo).\ 
+2) Pro nastavení úhlu využíváme 6 spínačů zprava (SW1-6). Hodnota na spínačích se zadává binárně, ovšem na displeji sledujeme aktuální decimální hodnotu úhlu.
+3) Potvrzujeme pravým tlačítkem (BTNR). Aktuální úhel serva vidíme v pravé části 7-segmentového displeje.
+4) Sledujeme natočení serva na potvrzený úhel a změnění aktuální hodnoty na displeji.
+5) Pro druhé servo přepneme spínač do opačné polohy
 
 ## References
 https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
