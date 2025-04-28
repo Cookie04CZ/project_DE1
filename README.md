@@ -7,7 +7,7 @@ Filip Hojer - Hlavní programátor,\
 Filip Křivánek - Pomocný programátor, readme\
 František Kajtár - Pomocný programátor, readme
 
-# PWM Generator ve VHDL
+<code style="color : cyan">text# PWM Generator ve VHDL</code>
 ## Popis
 Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM pro řízení servomotoru ve VHDL. Projekt se zaměřuje na návrh a implementaci **PWM (Pulse Width Modulation)** pro **nezávislé** řízení dvou servomotorů. Každé servo je ovládáno samostatně v rozsahu **0-90°** změnou šířky PWM pulzů. Námi vytvořený VHDL kód generuje signál s pevnou periodou a proměnnou délkou pulzu, která určuje požadovanou polohu serva.
 
