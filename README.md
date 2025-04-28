@@ -21,9 +21,9 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 <img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" align="center" width="500" height="300">
 
 **Pinout serva SG90**\
-<img src="https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76" alt="Sample Image" align="center" width="500" height="230">
+<img src="https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76" alt="Sample Image" align="center" width="500" height="200">
 
-Zapojení obou serv\
+**Zapojení obou serv**\
 ![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)
 
 ## Software popis
