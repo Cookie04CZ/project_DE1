@@ -51,7 +51,7 @@ Zapojení obou serv\
 
 ## Instrukce
 **Schéma boardy Nexys A7-50T s popisky**
-![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)\
+![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)
 ## Popis ovládání
 1) Pro zadání úhlu pro konkrétní servo vybereme levým spínačem (SW16) pozici nahoře (1. servo), nebo dole (2. servo).\ 
 2) Pro nastavení úhlu využíváme 6 spínačů zprava (SW1-6). Hodnota na spínačích se zadává binárně, ovšem na displeji sledujeme aktuální decimální hodnotu úhlu.
