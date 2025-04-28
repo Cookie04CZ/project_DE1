@@ -63,16 +63,16 @@ Zapojení obou serv\
 > Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neúplné zobrazování na displeji a funkčního porvrzovacího tlačítka.
 
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**\
-![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)\
+![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
 
 **Sepnuty 2 levé spínače -> hodnota úhlu 48° -> servo natočeno do poloviny**\
-![Image](https://github.com/user-attachments/assets/ca2c3236-e8b3-4b97-a3d9-47d5bc19127e)\
+![Image](https://github.com/user-attachments/assets/ca2c3236-e8b3-4b97-a3d9-47d5bc19127e)
 
 **Sepnut levý spínač -> hodnota na binárním vstupu je větší jak 90° -> servo natočeno na maximální hodnotu, neboli 90°**\
-![image](https://github.com/user-attachments/assets/a5af292a-2637-41b7-ba3d-2f771a808d0c)\
+![image](https://github.com/user-attachments/assets/a5af292a-2637-41b7-ba3d-2f771a808d0c)
 
 **Sepnuty všechny spínače -> hodnota na binárním vstupu je pořád větší jak 90° -> servo natočeno na maximální hodnotu, neboli 90°**\
-![image](https://github.com/user-attachments/assets/f33889f9-4dd4-4979-a1bf-fd7095cfbb49)\
+![image](https://github.com/user-attachments/assets/f33889f9-4dd4-4979-a1bf-fd7095cfbb49)
 
 
 ## References
