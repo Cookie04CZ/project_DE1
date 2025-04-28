@@ -13,7 +13,7 @@ Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM pro řízen�
 
 Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat zvolené servo, jeho aktuální stav a uživatelem zadávaný úhel. Konkrétní ovládání bude vysvětleno [níže](#Instrukce). V plánu bylo zprovoznit i ovládání jasu LED, ale z časových důvodů jsme to již nestihli. 
 
-## Hardware popis
+## Hardware
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)
 
 **Jako servomotory použijeme dva SG90.**\
@@ -25,7 +25,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 **Zapojení obou serv**\
 ![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)
 
-## Software popis
+## Software
 **TOPLEVEL**\
 ![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)\
 > **TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
@@ -55,7 +55,12 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 `clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
 > **OBRAZEK SIMULACE?**
 
-## Instrukce
+# Instrukce
+## Stažení projektu
+Celý projekt se nachází [zde](#Instrukce).
+> Přidat odkaz na finální projekt
+
+## Ovládání na desce
 **Schéma boardy Nexys A7-50T s popisky**
 ![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)
 ## Popis ovládání
