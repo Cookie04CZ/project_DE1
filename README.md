@@ -18,7 +18,7 @@ Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.\
 Pinout serva SG90\
 ![Image](https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76)\
 Zapojení obou serv\
-![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)\
+![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)
 
 ## Software popis
 **TOPLEVEL**\
