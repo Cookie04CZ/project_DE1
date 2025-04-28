@@ -27,7 +27,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 ## Software
 **TOPLEVEL**\
-![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)\
+![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)
 > **TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
 
 ## Komponenty a simulace
