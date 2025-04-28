@@ -65,7 +65,7 @@ Zapojení obou serv\
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**\
 ![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
 
-**Sepnuty 2 levé spínače -> hodnota úhlu 48° -> servo natočeno do poloviny**\
+**Sepnuty 2 spínače -> hodnota úhlu 48° -> servo natočeno do poloviny**\
 ![Image](https://github.com/user-attachments/assets/ca2c3236-e8b3-4b97-a3d9-47d5bc19127e)
 
 **Sepnut levý spínač -> hodnota na binárním vstupu je větší jak 90° -> servo natočeno na maximální hodnotu, neboli 90°**\
