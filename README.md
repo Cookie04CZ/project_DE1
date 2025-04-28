@@ -19,11 +19,8 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 **Jako servomotory použijeme dva SG90.**\
 <img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" align="center" width="500" height="300">
 
-**Pinout**\
-<img src="https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76" alt="Sample Image" align="center" width="500" height="200">
-
-**Zapojení obou serv**\
-![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)
+**Zapojení obou serv a pinout desky**\
+![Component 20](https://github.com/user-attachments/assets/7d748c2d-951e-407e-a203-209422bdae0c)
 
 ## Software
 **TOPLEVEL**\
