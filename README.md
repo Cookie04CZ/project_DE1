@@ -12,11 +12,11 @@ František Kajtár - Pomocný programátor, readme
 Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM-servo motor ovladače (a ovládání jasu LED když budeme časově stíhat). Ovládání mezi servama (a ledkou) se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat stav, neboli úhel natočení. Konkrétní ovládání bude vysvětleno [níže](#Instructions).
 
 ## Hardware popis
-Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.
+Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.\
 ![Image](https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a)
-Pinout serva SG90
+Pinout serva SG90\
 ![Image](https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76)
-Zapojení obou serv
+Zapojení obou serv\
 ![Image](https://github.com/user-attachments/assets/59f5241e-ee04-40ba-9dab-9566e1c3ea06)
 
 ## Software popis
