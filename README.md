@@ -45,7 +45,9 @@ Zapojení obou serv\
 `clk_enable.vhd`\
 **OBRAZEK SIMULACE**
 
-## Instructions
+## Instrukce
+#Schéma boardy Nexys A7-50T s popisky
+![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)
 
 ## References
 https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
