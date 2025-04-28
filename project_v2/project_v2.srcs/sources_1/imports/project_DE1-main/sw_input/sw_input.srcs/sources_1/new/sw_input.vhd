@@ -6,7 +6,7 @@ library ieee;
 
 entity sw_input is
     port (
-        sw_in   : in    std_logic_vector(7 downto 0);
+        sw_in   : in    std_logic_vector(6 downto 0);
         ang_out : out   integer
     );
 end entity sw_input;
@@ -27,6 +27,6 @@ begin
         end if;
         
         -- Output the decimal value as an 8-bit binary
-        ang_out <= to_integer(to_unsigned(bin, 8)); 
+        ang_out <= to_integer(to_unsigned(bin, 7)); 
     end process;
 end architecture behavioral;

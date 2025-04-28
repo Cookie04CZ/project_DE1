@@ -9,7 +9,7 @@ entity dec2seg is
         choice : in integer; --aktualni nastaveni spinacu
         dec_in : in integer; --aktualni nastaveni serva
         clk : in STD_LOGIC; --zpomalene hodiny
-        seg : out STD_LOGIC_VECTOR (3 downto 0); --4 bit vystup cisla pro zobrazeni na displayi
+        outp : out STD_LOGIC_VECTOR (3 downto 0); --4 bit vystup cisla pro zobrazeni na displayi
         an : out STD_LOGIC_VECTOR (7 downto 0); --pozice 
         dp : out std_logic --desetinna carka (jenom na prvni pozici)
     );
@@ -45,30 +45,30 @@ begin
                     an <= b"0111_1111";
                     dp <= '0';
                     if servo = '0' then
-                        seg <= x"1";
+                        outp <= x"1";
                     else
-                        seg <= x"2";
+                        outp <= x"2";
                     end if;
                 when 3 =>
                     an <= b"1101_1111";
                     dp <= '1';
-                    seg <= std_logic_vector(to_unsigned(((servoangle mod 100) / 10), 4));
+                    outp <= std_logic_vector(to_unsigned(((servoangle mod 100) / 10), 4));
                 when 2 =>
                     an <= b"1110_1111";
                     dp <= '1';
-                    seg <= std_logic_vector(to_unsigned((servoangle mod 10), 4)); 
+                    outp <= std_logic_vector(to_unsigned((servoangle mod 10), 4)); 
                 when 1 =>
                     dp <= '1';
                     an <= b"1111_1101";
-                    seg <= std_logic_vector(to_unsigned(((currentangle mod 100) / 10), 4));
+                    outp <= std_logic_vector(to_unsigned(((currentangle mod 100) / 10), 4));
                 when 0 =>
                     an <= b"1111_1110";
                     dp <= '1';
-                    seg <= std_logic_vector(to_unsigned((currentangle mod 10), 4)); 
+                    outp <= std_logic_vector(to_unsigned((currentangle mod 10), 4)); 
                 when others =>
                     an <= b"1111_1111";
                     dp <= '1';
-                    seg <= (others => '0'); 
+                    outp <= (others => '0'); 
             end case;
             
            

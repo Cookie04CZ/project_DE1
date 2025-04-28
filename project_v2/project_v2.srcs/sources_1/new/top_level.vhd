@@ -33,12 +33,12 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity top_level is
-    Port ( SW : in STD_LOGIC_VECTOR (5 downto 0);
+    Port ( SW : in STD_LOGIC_VECTOR (6 downto 0);
            SW_servo : in STD_LOGIC;
            BTNR : in STD_LOGIC;
            BTNC : in STD_LOGIC;
            CLK100MHZ : in STD_LOGIC;
-           LED : out STD_LOGIC_VECTOR (5 downto 0);
+           LED : out STD_LOGIC_VECTOR (6 downto 0);
            DP : out STD_LOGIC;
            AN : out STD_LOGIC_VECTOR (7 downto 0);
            CA : out STD_LOGIC;
@@ -66,7 +66,6 @@ architecture Behavioral of top_level is
 
     component bin2seg is 
         Port ( 
-            clear : in STD_LOGIC;
             bin : in STD_LOGIC_VECTOR (3 downto 0);
             seg : out STD_LOGIC_VECTOR (6 downto 0)
         );
@@ -98,7 +97,7 @@ architecture Behavioral of top_level is
             choice : in integer; --aktualni nastaveni spinacu
             dec_in : in integer; --aktualni nastaveni serva
             clk : in STD_LOGIC; --zpomalene hodiny
-            seg : out STD_LOGIC_VECTOR (3 downto 0); --4 bit vystup cisla pro zobrazeni na displayi
+            outp : out STD_LOGIC_VECTOR (3 downto 0); --4 bit vystup cisla pro zobrazeni na displayi
             an : out STD_LOGIC_VECTOR (7 downto 0); --pozice 
             dp : out std_logic --desetinna carka (jenom na prvni pozici)
         );
@@ -106,7 +105,7 @@ architecture Behavioral of top_level is
     
     component sw_input is 
         port (
-            sw_in   : in    std_logic_vector(5 downto 0);
+            sw_in   : in    std_logic_vector(6 downto 0);
             ang_out : out   integer
         );
     end component;
@@ -123,14 +122,14 @@ architecture Behavioral of top_level is
         );
     end component;
     
-    signal ang : integer;
+    signal ang : integer := 0;
     signal duty1 : unsigned (20 downto 0);
     signal duty2 : unsigned (20 downto 0);
-    signal decpwm1 : integer;
-    signal decpwm2 : integer;
+    signal decpwm1 : integer := 0;
+    signal decpwm2 : integer := 0;
     signal clk_disp : std_logic;
     signal display : std_logic_vector (3 downto 0);
-    signal currentang : integer;
+    signal currentang : integer := 0;
     
 begin
     
@@ -185,7 +184,7 @@ begin
             choice => ang,
             dec_in => currentang,
             clk => clk_disp,
-            seg => display,
+            outp => display,
             an => AN,
             dp => DP
             );
@@ -199,8 +198,7 @@ begin
             seg(3) => CD,
             seg(2) => CE,
             seg(1) => CF,
-            seg(0) => CG,
-            clear <= '0'
+            seg(0) => CG
             );
 
     buff_in : buff
