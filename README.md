@@ -16,7 +16,6 @@ Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegm
 ## Hardware popis
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)
 
-
 **Jako servomotory použijeme dva SG90.**\
 <img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" align="center" width="500" height="300">
 
@@ -28,35 +27,33 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 ## Software popis
 **TOPLEVEL**\
-![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)
-**TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
-
--
+![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)\
+> **TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
 
 ## Komponenty a simulace
 `top_level.vhd` - **Top Level Module**:\
-**OBRAZEK SIMULACE**
+> **OBRAZEK SIMULACE**
 
 `pwm.vhd` - Generuje PWM signál závislý na vstupních parametrech.\
-**OBRAZEK SIMULACE**
+> **OBRAZEK SIMULACE**
 
 `buff.vhd` - **POPIS**\
 ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
 `dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
-**OBRAZEK SIMULACE**
+> **OBRAZEK SIMULACE**
 
 `dec2duty.vhd` - Převádní úhel v decimálním čísle na střídu.\
-**OBRAZEK SIMULACE**
+> **OBRAZEK SIMULACE**
 
 `sw_input.vhd` - Převede binární vstup na úhel.\
-**OBRAZEK SIMULACE**
+> **OBRAZEK SIMULACE**
 
 `bin2seg.vhd` - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
-**OBRAZEK SIMULACE?**
+> **OBRAZEK SIMULACE?**
 
 `clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
-**OBRAZEK SIMULACE?**
+> **OBRAZEK SIMULACE?**
 
 ## Instrukce
 **Schéma boardy Nexys A7-50T s popisky**
