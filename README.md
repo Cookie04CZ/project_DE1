@@ -13,8 +13,7 @@ Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM-servo motor 
 
 ## Hardware popis
 Jako servo motor použijeme SG90 spojený s deskou Nexys A7-50T.\
-
-<img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" width="500" height="300">
 
 Pinout serva SG90\
 ![Image](https://github.com/user-attachments/assets/a287a20f-ef4b-4c7a-b373-06122f760d76)\
