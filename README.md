@@ -15,12 +15,8 @@ Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegm
 
 ## 🔩Hardware
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)
-
-**Jako servomotory použijeme dva SG90.**\
-<img src="https://github.com/user-attachments/assets/729a2219-6d19-4bb1-9bec-48f4823f098a" alt="Sample Image" width="500" height="300">
-
-**Zapojení obou serv a pinout desky**\
-<img src="https://github.com/user-attachments/assets/7d748c2d-951e-407e-a203-209422bdae0c" alt="Sample Image" width="350" height="120">
+**Schema zapojeni**
+![SchemaZapojeni](https://github.com/user-attachments/assets/e999f02a-1069-4460-a3c6-f70a613ad44a)
 
 ## 👨🏻‍💻Software
 **TOPLEVEL**\
