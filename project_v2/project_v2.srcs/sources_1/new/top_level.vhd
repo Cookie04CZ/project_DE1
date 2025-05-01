@@ -171,7 +171,7 @@ begin
             );
     
     clock_enabler : clock_enable
-        generic map(N_PERIODS => 5)
+        generic map(N_PERIODS => 125_000)
         port map(
             rst => BTNR,
             clk => CLK100MHZ,
