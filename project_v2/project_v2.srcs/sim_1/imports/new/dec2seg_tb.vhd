@@ -12,7 +12,7 @@ architecture tb of tb_dec2seg is
                 choice : in integer; --aktualni nastaveni spinacu
                 dec_in : in integer; --aktualni nastaveni serva
                 clk : in STD_LOGIC; --zpomalene hodiny
-                seg : out STD_LOGIC_VECTOR (3 downto 0); --4 bit vystup cisla pro zobrazeni na displayi
+                outp : out STD_LOGIC_VECTOR (3 downto 0); --4 bit vystup cisla pro zobrazeni na displayi
                 an : out STD_LOGIC_VECTOR (7 downto 0); --pozice 
                 dp : out std_logic --desetinna carka (jenom na prvni pozici)
                 );
@@ -24,7 +24,7 @@ architecture tb of tb_dec2seg is
     signal choice : integer;
     signal dec_in : integer;
     signal clk    : std_logic;
-    signal seg    : std_logic_vector (3 downto 0);
+    signal outp    : std_logic_vector (3 downto 0);
     signal an     : std_logic_vector (7 downto 0);
     signal dp     : std_logic;
     
@@ -40,7 +40,7 @@ begin
                 choice => choice,
                 dec_in => dec_in,
                 clk    => clk,
-                seg    => seg,
+                outp    => outp,
                 an     => an,
                 dp     => dp
               
@@ -81,8 +81,8 @@ begin
         wait for 10 * TbPeriod;
         dec_in <= 90;
         wait for 10 * TbPeriod;
-        dec_in <= 100;
-        wait for 10 * TbPeriod;
+        servo <= '0';
+        wait for 1000 * TbPeriod;
         
         
 

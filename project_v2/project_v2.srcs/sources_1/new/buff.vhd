@@ -37,7 +37,7 @@ entity buff is
            save : in STD_LOGIC; --save button
            choice : in STD_LOGIC; --spinac pro nastaveni ovladaneho servomotoru
            ang_in : integer; --vstupni uhel ze spinacu
-           ang_out : out integer; -- vystupnio uhel pro zebrazeni aktualniho uhlu
+           ang_out : out integer; -- vystupnio uhel pro zobrazeni aktualniho uhlu
            pwm1 : out integer; --vystup pro nastaveni pwm 1
            pwm2 : out integer); --vystup pro nastaveni pwm 2
 end buff;
@@ -70,7 +70,8 @@ begin
         if rst = '1' then --celkovy reset
             pwm1 <= 0;
             pwm2 <= 0;
-            ang_out <= 0;
+            setangle1 <= 0;
+            setangle2 <= 0;
         end if;
     end process;
 

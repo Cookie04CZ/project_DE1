@@ -93,14 +93,16 @@ begin
         wait for 50 ns;
         BTNC <= '0';
         wait for 50 ns;
-        SW_servo <= '1';
-
+        SW_servo <= '0';
         -- Simulace dalšího resetu
         wait for 50 ns;
         BTNR <= '1';
         wait for 50 ns;
         BTNR <= '0';
-
+        wait for 50 ns;
+        SW_servo <= '1';
+        
+        
         -- Ukončení simulace
         wait for 5 us;
         assert false report "End of Simulation" severity failure;

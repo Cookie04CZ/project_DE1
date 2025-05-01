@@ -27,8 +27,8 @@ begin
     begin
         if rising_edge(clk) then
             if rst = '1' then
-                currentangle <= 0;
                 servoangle <= 0;
+                outp <= x"0";
                 dp_out <= 4;
             else
                 currentangle <= dec_in;

@@ -56,19 +56,19 @@ begin
 
         -- ***EDIT*** Add stimuli here
         save <= '1';
-        wait for 100 ns;
+        wait for 10 ns;
         save <= '0';
-        wait for 100 ns;
+        wait for 10 ns;
         ang_in <= 90;
-        wait for 100 ns;
+        wait for 10 ns;
         choice <= '1';
-        wait for 100 ns;
+        wait for 10 ns;
         save <= '1';
-        wait for 100 ns;
+        wait for 10 ns;
         save <= '0';
-        wait for 300 ns;
+        wait for 30 ns;
         rst <= '1';
-        wait for 100 ns;
+        wait for 10 ns;
         rst <= '0';
         
         wait;

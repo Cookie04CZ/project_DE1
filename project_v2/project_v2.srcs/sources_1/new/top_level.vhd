@@ -39,6 +39,7 @@ entity top_level is
            BTNC : in STD_LOGIC;
            CLK100MHZ : in STD_LOGIC;
            LED : out STD_LOGIC_VECTOR (6 downto 0);
+           LED_servo : out std_logic;
            DP : out STD_LOGIC;
            AN : out STD_LOGIC_VECTOR (7 downto 0);
            CA : out STD_LOGIC;
@@ -170,7 +171,7 @@ begin
             );
     
     clock_enabler : clock_enable
-        generic map(N_PERIODS => 100_000)
+        generic map(N_PERIODS => 5)
         port map(
             rst => BTNR,
             clk => CLK100MHZ,
@@ -181,8 +182,8 @@ begin
         port map(
             servo => SW_servo,
             rst => BTNR,
-            choice => ang,
-            dec_in => currentang,
+            choice => currentang,
+            dec_in => ang,
             clk => clk_disp,
             outp => display,
             an => AN,
@@ -213,5 +214,6 @@ begin
             );
 
     LED <= SW;
+    LED_servo <= SW_servo;
 
 end Behavioral;
