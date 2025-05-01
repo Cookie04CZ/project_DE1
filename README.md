@@ -14,9 +14,9 @@ Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM pro řízen�
 Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat zvolené servo, jeho aktuální stav a uživatelem zadávaný úhel. Konkrétní ovládání bude vysvětleno [níže](#Instrukce). V plánu bylo zprovoznit i ovládání jasu LED, ale z časových důvodů jsme to již nestihli. 
 
 ## 🔩Hardware
-Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)
+Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)\
 **Schema zapojeni**
-![SchemaZapojeni](https://github.com/user-attachments/assets/e999f02a-1069-4460-a3c6-f70a613ad44a)
+<img src="https://github.com/user-attachments/assets/e999f02a-1069-4460-a3c6-f70a613ad44a" width="400px" height="300px">
 
 ## 👨🏻‍💻Software
 **TOPLEVEL**\
