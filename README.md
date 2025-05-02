@@ -33,7 +33,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 `pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.\
 > **OBRAZEK SIMULACE**
 
-`buff.vhd` - buff_in - 
+`buff.vhd` - buff_in - Drží uživatelem nastavené hodnoty úhlu. Až po potvrzení pošle tento úhel do pwm.
 > ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
 `dec2seg.vhd` - decadicToSegment - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
@@ -46,10 +46,8 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > **OBRAZEK SIMULACE**
 
 `bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
-> **OBRAZEK SIMULACE?**
 
 `clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
-> **OBRAZEK SIMULACE?**
 
 # ❗Instrukce
 ## Stažení projektu
