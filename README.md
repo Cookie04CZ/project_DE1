@@ -54,7 +54,7 @@ Celý projekt se nachází [zde](project_v2).
 
 ## Ovládání na desce
 **Schéma boardy Nexys A7-50T s popisky**
-![Image](https://github.com/user-attachments/assets/55e20161-78bc-406a-9e87-5a19a81831d8)
+![Component 19](https://github.com/user-attachments/assets/9fc61ad9-ae97-4ec6-9cff-f90249423cd0)
 ## Popis ovládání
 1) Levým spínačem (SW16) vybereme servo, které chceme ovládat. Pozicí nahoře (1. servo), nebo dole (2. servo).\ 
 2) Pro nastavení úhlu využíváme 6 spínačů zprava (SW1-6). Hodnota na spínačích se zadává binárně, ovšem na displeji sledujeme aktuální decimální hodnotu zadávaného úhlu v pravé části displeje.
