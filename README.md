@@ -24,7 +24,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > **TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
 
 ## 📊Komponenty a simulace
-`top_level.vhd` - **Top Level Module**:\
+`top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále použijeme reset, aby se obě serva dali na úhel 0° a následně nastavujeme úhel 5° a opět potvrzujeme tlačítkem.
 > ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
 `pwm.vhd` - Generuje PWM signál závislý na vstupních parametrech.\
