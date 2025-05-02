@@ -30,7 +30,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 `top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále nastavujeme úhel 5° a opět potvrzujeme tlačítkem. Následně resetujeme pravým tlačítkem BTNR a obě serva se nastaví na 0°.
 > ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
-`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.\
+`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.
 > **OBRAZEK SIMULACE**
 
 `buff.vhd` - buff_in - Drží uživatelem nastavené hodnoty úhlu. Až po potvrzení pošle tento úhel do pwm.
@@ -39,15 +39,15 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 `dec2seg.vhd` - decadicToSegment - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
 > **OBRAZEK SIMULACE**
 
-`dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.\
+`dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.
 > **OBRAZEK SIMULACE**
 
-`sw_input.vhd` - switches_input - Převede binární vstup na úhel.\
+`sw_input.vhd` - switches_input - Převede binární vstup na úhel.
 > **OBRAZEK SIMULACE**
 
-`bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
+`bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.
 
-`clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
+`clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.
 
 # ❗Instrukce
 ## Stažení projektu
