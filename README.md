@@ -19,10 +19,10 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 <img src="https://github.com/user-attachments/assets/8eee5a3d-383a-4678-bb91-292904599612" width="600px" height="280px">
 
 ## 👨🏻‍💻Software
-**Schéma, které jsme navrhli před začátkem tvorby projektu**\
+**Schéma, které jsme navrhli před začátkem tvorby projektu**
 > ![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)\
 
-**Schémea vygenerované pomocí VAVADO**\
+**Schémea vygenerované pomocí VAVADO**
 > ![image](https://github.com/user-attachments/assets/fcff67d7-281f-4702-8529-4f401baa814f)
 
 
@@ -30,22 +30,22 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 `top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále použijeme reset, aby se obě serva dali na úhel 0° a následně nastavujeme úhel 5° a opět potvrzujeme tlačítkem.
 > ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
-`pwm.vhd` - Generuje PWM signál závislý na vstupních parametrech.\
+`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.\
 > **OBRAZEK SIMULACE**
 
-`buff.vhd` - **POPIS**\
+`buff.vhd` - buff_in - 
 > ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
-`dec2seg.vhd` - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
+`dec2seg.vhd` - decadicToSegment - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
 > **OBRAZEK SIMULACE**
 
-`dec2duty.vhd` - Převádní úhel v decimálním čísle na střídu.\
+`dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.\
 > **OBRAZEK SIMULACE**
 
-`sw_input.vhd` - Převede binární vstup na úhel.\
+`sw_input.vhd` - switches_input - Převede binární vstup na úhel.\
 > **OBRAZEK SIMULACE**
 
-`bin2seg.vhd` - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
+`bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
 > **OBRAZEK SIMULACE?**
 
 `clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
