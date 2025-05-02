@@ -19,8 +19,8 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 <img src="https://github.com/user-attachments/assets/8eee5a3d-383a-4678-bb91-292904599612" width="600px" height="280px">
 
 ## 👨🏻‍💻Software
-**TOPLEVEL**\
-![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)\
+**Schéma, které jsme navrhli před začátkem tvorby projektu**\
+> ![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)\
 **Schémea vygenerované pomocí VAVADO**\
 > ![image](https://github.com/user-attachments/assets/fcff67d7-281f-4702-8529-4f401baa814f)
 
