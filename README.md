@@ -21,7 +21,9 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 ## 👨🏻‍💻Software
 **TOPLEVEL**\
 ![Image](https://github.com/user-attachments/assets/7c69c288-4522-4382-9dbc-83bab11b0f2d)
-> **TOPLEVEL VYGENEROVANÉ SCHÉMA Z VIVADA**
+**Schémea vygenerované pomocí VAVADO**
+> ![image](https://github.com/user-attachments/assets/fcff67d7-281f-4702-8529-4f401baa814f)
+
 
 ## 📊Komponenty a simulace
 `top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále použijeme reset, aby se obě serva dali na úhel 0° a následně nastavujeme úhel 5° a opět potvrzujeme tlačítkem.
