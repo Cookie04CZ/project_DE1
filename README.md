@@ -15,7 +15,7 @@ Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegm
 
 ## 🔩Hardware
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)\
-**Schéma zapojeni**\
+**Schéma zapojeni**
 > <img src="https://github.com/user-attachments/assets/8eee5a3d-383a-4678-bb91-292904599612" width="600px" height="280px">
 
 ## 👨🏻‍💻Software
