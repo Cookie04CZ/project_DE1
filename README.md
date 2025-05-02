@@ -25,7 +25,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 ## 📊Komponenty a simulace
 `top_level.vhd` - **Top Level Module**:\
-> **OBRAZEK SIMULACE**
+> ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
 `pwm.vhd` - Generuje PWM signál závislý na vstupních parametrech.\
 > **OBRAZEK SIMULACE**
