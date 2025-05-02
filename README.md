@@ -50,8 +50,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 # ❗Instrukce
 ## Stažení projektu
-Celý projekt se nachází [zde](#Instrukce).
-> Přidat odkaz na finální projekt
+Celý projekt se nachází [zde](project_v2).
 
 ## Ovládání na desce
 **Schéma boardy Nexys A7-50T s popisky**
