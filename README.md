@@ -23,7 +23,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > ![top_level_final](https://github.com/user-attachments/assets/c306c5c0-3875-416f-96cb-cd0d75f77a18)
 
 
-**Schéma vygenerované pomocí VAVADO**
+**Schéma vygenerované pomocí VIVADO**
 > ![image](https://github.com/user-attachments/assets/fcff67d7-281f-4702-8529-4f401baa814f)
 
 
@@ -83,3 +83,4 @@ Celý projekt se nachází [zde](project_v2).
 
 ## References
 https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
+https://www.kjell.com/globalassets/mediaassets/701916_87897_datasheet_en.pdf?ref=4287817A7A
