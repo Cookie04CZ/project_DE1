@@ -82,5 +82,6 @@ Celý projekt se nachází [zde](project_v2).
 
 
 ## References
-https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
-https://www.kjell.com/globalassets/mediaassets/701916_87897_datasheet_en.pdf?ref=4287817A7A
+1. https://www.kjell.com/globalassets/mediaassets/701916_87897_datasheet_en.pdf?ref=4287817A7A
+2. https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
+
