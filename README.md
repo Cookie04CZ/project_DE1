@@ -38,7 +38,8 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
 `dec2seg.vhd` - decadicToSegment - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
-> **OBRAZEK SIMULACE**
+> ![image](https://github.com/user-attachments/assets/981d5423-7560-439c-b689-02072d0ab441)
+
 
 `dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.
 > **OBRAZEK SIMULACE**
@@ -84,4 +85,5 @@ Celý projekt se nachází [zde](project_v2).
 ## References
 1. https://www.kjell.com/globalassets/mediaassets/701916_87897_datasheet_en.pdf?ref=4287817A7A
 2. https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
+3. https://www.edaplayground.com/
 
