@@ -23,7 +23,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 
 ## 👨🏻‍💻Software
-**Schéma, které jsme navrhli před začátkem tvorby projektu**
+**Schéma realizace projektu**
 > ![top_level_final](https://github.com/user-attachments/assets/c306c5c0-3875-416f-96cb-cd0d75f77a18)
 
 
