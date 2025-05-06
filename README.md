@@ -32,30 +32,38 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 
 ## 📊Komponenty a simulace
-`top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále nastavujeme úhel 5° a opět potvrzujeme tlačítkem. Následně resetujeme pravým tlačítkem BTNR a obě serva se nastaví na 0°.
+`top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále nastavujeme úhel 5° a opět potvrzujeme tlačítkem. Následně resetujeme pravým tlačítkem BTNR a obě serva se nastaví na 0°.\
 Odkaz zde: [top_level.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd)
 > ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
-`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.
+`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.\
+Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd)
 > **OBRAZEK SIMULACE**
 
 `buff.vhd` - buff_in - Drží uživatelem nastavené hodnoty úhlu. Až po potvrzení pošle tento úhel do pwm.
+Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd)
 > ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
 `dec2seg.vhd` - decadicToSegment - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
+Odkaz zde: [dec2seg.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/new/dec2seg.vhd)
 > ![image](https://github.com/user-attachments/assets/981d5423-7560-439c-b689-02072d0ab441)
 
 
-`dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.
+`dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.\
+Odkaz zde: [dec2duty.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd)
 ![image](https://github.com/user-attachments/assets/f779fdbc-2a86-4a03-9805-76438b7ebb0b)
 
-`sw_input.vhd` - switches_input - Převede binární vstup na úhel.
+`sw_input.vhd` - switches_input - Převede binární vstup na úhel.\
+Odkaz zde: [sw_input.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/sw_input/sw_input.srcs/sources_1/new/sw_input.vhd)
 > ![image](https://github.com/user-attachments/assets/f2b50aee-df39-4c1e-b6bd-56d7212a12fd)
 
 
-`bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.
+`bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
+Odkaz zde: [bin2seg.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/display/display.srcs/sources_1/new/bin2seg.vhd)
 
 `clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.
+Odkaz zde: [clk_enable.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/imports/new/clock_enable.vhd)
+
 
 # ❗Instrukce
 ## Stažení projektu
