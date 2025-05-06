@@ -37,7 +37,7 @@ Odkaz zde: [top_level.vhd](project_v2/project_v2.srcs/sources_1/new/top_level.vh
 
 `pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech. Vstupním parametrem je 21-bitový usigned, reprezentující počet čítaných impulzů 100 MHz hodin potřebných k dosažení požadované střídy. Šířka impulzu tedy odpovídá času, za který je čítán počet zadaných impulzů. Samotné nastavení střídy a zajištění správného rozsahu (5-10%) je pak realizováno komponentami `dec2duty.vhd` a `sw_input.vhd`.\
 Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd)
-> **OBRAZEK SIMULACE**
+> ![image](https://github.com/user-attachments/assets/4564733d-66c6-4b95-9bc2-ec3bf55913d9)
 
 `buff.vhd` - buff_in - Drží uživatelem nastavené hodnoty úhlu. Až po potvrzení pošle tento úhel do pwm.
 Odkaz zde: [buff.vhd](project_v2/project_v2.srcs/sources_1/new/buff.vhd)
