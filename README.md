@@ -47,7 +47,7 @@ Odkaz zde: [dec2seg.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE
 
 `dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.\
 Odkaz zde: [dec2duty.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd)
-![image](https://github.com/user-attachments/assets/f779fdbc-2a86-4a03-9805-76438b7ebb0b)
+> ![image](https://github.com/user-attachments/assets/f779fdbc-2a86-4a03-9805-76438b7ebb0b)
 
 `sw_input.vhd` - switches_input - Převede binární vstup na úhel.\
 Odkaz zde: [sw_input.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/sw_input/sw_input.srcs/sources_1/new/sw_input.vhd)
