@@ -42,7 +42,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 
 `dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.
-> **OBRAZEK SIMULACE**
+![image](https://github.com/user-attachments/assets/f779fdbc-2a86-4a03-9805-76438b7ebb0b)
 
 `sw_input.vhd` - switches_input - Převede binární vstup na úhel.
 > ![image](https://github.com/user-attachments/assets/f2b50aee-df39-4c1e-b6bd-56d7212a12fd)
