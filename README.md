@@ -1,6 +1,6 @@
 # 🗒️Projekt DE1
 > [!IMPORTANT]
-> *Funkční projekt se nachází ve složce [project_v2](project_v2). Doděláváme ještě lepší user input pro lepší ovládání a přidáme ještě jedno servo a funkčnost na více kanálech.*
+> *Oficiální a konečná verze projektu se nachází ve složce [project_v2](project_v2).*
 # 🙋🏻Team members
 **Jan Baňař** - Hlavní programátor, vedoucí skupinky\
 **Filip Hojer** - Hlavní programátor,\
@@ -21,15 +21,12 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 **Reálné zapojení**
 > <img src="https://github.com/user-attachments/assets/7803890e-9108-4c0e-bc82-670d1c0df25d" width="600px" height="400px">
 
-
 ## 👨🏻‍💻Software
 **Schéma realizace projektu**
 > ![top_level_final](https://github.com/user-attachments/assets/c306c5c0-3875-416f-96cb-cd0d75f77a18)
 
-
 **Schéma vygenerované pomocí VIVADO**
 > ![image](https://github.com/user-attachments/assets/fcff67d7-281f-4702-8529-4f401baa814f)
-
 
 ## 📊Komponenty a simulace
 `top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále nastavujeme úhel 5° a opět potvrzujeme tlačítkem. Následně resetujeme pravým tlačítkem BTNR a obě serva se nastaví na 0°.\
@@ -48,7 +45,6 @@ Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-ma
 Odkaz zde: [dec2seg.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/new/dec2seg.vhd)
 > ![image](https://github.com/user-attachments/assets/981d5423-7560-439c-b689-02072d0ab441)
 
-
 `dec2duty.vhd` - decadicToDuty - Převádní úhel v decimálním čísle na střídu.\
 Odkaz zde: [dec2duty.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd)
 ![image](https://github.com/user-attachments/assets/f779fdbc-2a86-4a03-9805-76438b7ebb0b)
@@ -57,11 +53,10 @@ Odkaz zde: [dec2duty.vhd](project_v2/project_v2.srcs/sources_1/imports/project_D
 Odkaz zde: [sw_input.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/sw_input/sw_input.srcs/sources_1/new/sw_input.vhd)
 > ![image](https://github.com/user-attachments/assets/f2b50aee-df39-4c1e-b6bd-56d7212a12fd)
 
-
 `bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.\
 Odkaz zde: [bin2seg.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/display/display.srcs/sources_1/new/bin2seg.vhd)
 
-`clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.
+`clk_enable.vhd` - Využitý soubor ze cvičení. Hodiny s nastavitelnou frekvencí.\
 Odkaz zde: [clk_enable.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2seg/dec2seg.srcs/sources_1/imports/new/clock_enable.vhd)
 
 
