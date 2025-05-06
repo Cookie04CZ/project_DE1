@@ -76,7 +76,7 @@ Celý projekt se nachází [zde](project_v2).
 6) Pro zvolení druhého serva, přepneme spínač do druhé pozice a ovládáme stejnými kroky.
 
 > [!WARNING]
-> *Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a neimplementované resetovací a potvrzovací tlačítko. Také zde máme 8 switchů pro zadání úhlu, to jsme ve finálním projektu snížili na 6.*
+> *Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a ještě neimplementovaný finální user input.*
 
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**
 > ![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
