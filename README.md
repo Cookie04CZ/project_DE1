@@ -45,7 +45,8 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > **OBRAZEK SIMULACE**
 
 `sw_input.vhd` - switches_input - Převede binární vstup na úhel.
-> **OBRAZEK SIMULACE**
+> ![image](https://github.com/user-attachments/assets/f2b50aee-df39-4c1e-b6bd-56d7212a12fd)
+
 
 `bin2seg.vhd` - binaryToSegment - Využitý sobor ze cvičení. Ovládá jednotlivé číslice.
 
