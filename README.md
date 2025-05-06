@@ -30,7 +30,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 
 ## 📊Komponenty a simulace
 `top_level.vhd` - TOPLEVEL projektu. Vidíme zde celou funkčnost obou serv. Postupně nastavujeme na obě serva 90° a potvrdíme tlačítkem BTNC. Dále nastavujeme úhel 5° a opět potvrzujeme tlačítkem. Následně resetujeme pravým tlačítkem BTNR a obě serva se nastaví na 0°.\
-Odkaz zde: [top_level.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/dec2duty/dec2duty.srcs/sources_1/new/dec2duty.vhd)
+Odkaz zde: [top_level.vhd](project_v2/project_v2.srcs/sources_1/new/top_level.vhd)
 > ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
 `pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.\
@@ -38,7 +38,7 @@ Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-ma
 > **OBRAZEK SIMULACE**
 
 `buff.vhd` - buff_in - Drží uživatelem nastavené hodnoty úhlu. Až po potvrzení pošle tento úhel do pwm.
-Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd)
+Odkaz zde: [buff.vhd](project_v2/project_v2.srcs/sources_1/new/buff.vhd)
 > ![Image](https://github.com/user-attachments/assets/f36f3e4c-be09-484a-a2e0-9e6049aaaabf)
 
 `dec2seg.vhd` - decadicToSegment - Využije hodnotu úhlu v decimálním čísle a posune ho do `bin2seg.vhd`. Ovládá jednotlivé číslice.\
