@@ -4,8 +4,8 @@
 # 🙋🏻Team members
 **Jan Baňař** - Hlavní programátor, vedoucí skupinky\
 **Filip Hojer** - Hlavní programátor,\
-**Filip Křivánek** - Pomocný programátor, readme\
-**František Kajtár** - Pomocný programátor, readme
+**Filip Křivánek** - Pomocný programátor, readme, poster\
+**František Kajtár** - Pomocný programátor, readme, poster
 
 # PWM Generator ve VHDL
 ## 🗨️Popis
@@ -14,9 +14,13 @@ Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM pro řízen�
 Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat zvolené servo, jeho aktuální stav a uživatelem zadávaný úhel. Konkrétní ovládání bude vysvětleno [níže](#Instrukce). 
 
 ## 🔩Hardware
-Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz. [Instrukce](#Instrukce)\
+Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz.\
 **Schéma zapojeni**
 > <img src="https://github.com/user-attachments/assets/8eee5a3d-383a-4678-bb91-292904599612" width="600px" height="280px">
+
+**Reálné zapojení**
+> ![IMG_20250430_113042](https://github.com/user-attachments/assets/7803890e-9108-4c0e-bc82-670d1c0df25d)
+
 
 ## 👨🏻‍💻Software
 **Schéma, které jsme navrhli před začátkem tvorby projektu**
