@@ -35,7 +35,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 Odkaz zde: [top_level.vhd](project_v2/project_v2.srcs/sources_1/new/top_level.vhd)
 > ![image](https://github.com/user-attachments/assets/0f87b83a-0b2d-4cf7-a2ac-53a2c624c129)
 
-`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech.\
+`pwm.vhd` - pwm1, pwm2 - Generuje PWM signál závislý na vstupních parametrech. Vstupním parametrem je 21-bitový usigned, reprezentující počet čítaných impulzů 100 MHz hodin potřebných k dosažení požadované střídy. Šířka impulzu tedy odpovídá času, za který je čítán počet zadaných impulzů. Samotné nastavení střídy a zajištění správného rozsahu (5-10%) je pak realizováno komponentami `dec2duty.vhd` a `sw_input.vhd`.\
 Odkaz zde: [pwm.vhd](project_v2/project_v2.srcs/sources_1/imports/project_DE1-main/pwm/pwm.srcs/sources_1/new/pwm.vhd)
 > **OBRAZEK SIMULACE**
 
