@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../dec2duty.srcs/sources_1/new/dec2duty.vhd" \
+"../../../../dec2duty.srcs/sim_1/new/dec2duty_tb.vhd" \
+
+# Do not sort compile order
+nosort

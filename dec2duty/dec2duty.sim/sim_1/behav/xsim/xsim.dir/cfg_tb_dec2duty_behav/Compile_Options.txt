@@ -1,1 +1,0 @@
--wto "dfaa20fc4e6741cf89a53f51e1f3b7fb" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "cfg_tb_dec2duty_behav" "xil_defaultlib.cfg_tb_dec2duty" -log "elaborate.log" 
