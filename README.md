@@ -1,7 +1,7 @@
 # 🗒️Projekt DE1
 > [!IMPORTANT]
 > *Oficiální a konečná verze projektu se nachází ve složce [project_v2](project_v2).*
-# 🙋🏻Team members
+# 🙋🏻Členi týmu
 **Jan Baňař** - Hlavní programátor, vedoucí skupinky\
 **Filip Hojer** - Hlavní programátor,\
 **Filip Křivánek** - Pomocný programátor, readme, poster\
