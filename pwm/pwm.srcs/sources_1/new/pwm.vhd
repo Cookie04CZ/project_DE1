@@ -22,7 +22,7 @@ if(rising_edge(clk)) then
 
     if(rst ='1') then
         sig_pwm_out <= '0';
-        sig_count <=  (others => '0');
+        sig_count <=  "000011001100110011010";
     else
         sig_count <= sig_count + 1;
         sig_pwm_out <= '0';
