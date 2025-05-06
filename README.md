@@ -11,7 +11,9 @@
 ## 🗨️Popis
 Jako projekt do předmětu DE1 jsme se rozhodli pro vytvoření PWM pro řízení servomotoru ve VHDL. Projekt se zaměřuje na návrh a implementaci **PWM (Pulse Width Modulation)** pro **nezávislé** řízení dvou servomotorů. Každé servo je ovládáno samostatně v rozsahu **0-90°** změnou šířky PWM pulzů. Námi vytvořený VHDL kód generuje signál s pevnou periodou a proměnnou délkou pulzu, která určuje požadovanou polohu serva.
 
-Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat zvolené servo, jeho aktuální stav a uživatelem zadávaný úhel. Konkrétní ovládání bude vysvětleno [níže](#Instrukce). 
+Ovládání mezi servama se bude přepínat pomocí spínače. Na dvou sedmisegmentových displejích budeme zobrazovat zvolené servo, jeho aktuální stav a uživatelem zadávaný úhel. Konkrétní ovládání bude vysvětleno [níže](#Instrukce).\
+
+Poster se nachází [zde](DE1_Projekt_Poster.pdf).
 
 ## 🔩Hardware
 Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys A7-50T. viz.\
@@ -91,7 +93,7 @@ Celý projekt se nachází [zde](project_v2).
 > ![image](https://github.com/user-attachments/assets/f33889f9-4dd4-4979-a1bf-fd7095cfbb49)
 
 
-## References
+## Reference
 1. https://www.kjell.com/globalassets/mediaassets/701916_87897_datasheet_en.pdf?ref=4287817A7A
 2. https://www.studiopieters.nl/tower-pro-micro-servo-s9-sg90/
 3. https://www.edaplayground.com/
