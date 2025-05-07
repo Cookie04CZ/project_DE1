@@ -21,7 +21,7 @@ Pro realizaci a ověření funkčnosti je využíván FPGA vývojový kit Nexys 
 > <img src="https://github.com/user-attachments/assets/8eee5a3d-383a-4678-bb91-292904599612" width="600px" height="280px">
 
 **Reálné zapojení**
-> <img src="https://github.com/user-attachments/assets/0eb82594-0d13-43a7-8f71-2fd8d7254156" width="600px" height="400px">
+> <img src="https://github.com/user-attachments/assets/ca46d963-38b3-42d5-a4bc-5b0eefe46a96" width="600px" height="400px">
 
 ## 👨🏻‍💻Software
 **Schéma realizace projektu**
