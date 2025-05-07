@@ -78,7 +78,7 @@ Celý projekt se nachází [zde](project_v2).
 6) Pro zvolení druhého serva, přepneme spínač do druhé pozice a ovládáme stejnými kroky.
 
 > [!WARNING]
-> *Následující obrázky jsou pořízeny při zkoušce základní verze funkčnosti. Je zde pouze jedno servo a ještě neimplementovaný finální user input.*
+> *Následující fotkz jsou z Verze 1*
 
 **Žádný spínač zapnut -> hodnota úhlu 0 -> servo v pozici 0**
 > ![Image](https://github.com/user-attachments/assets/f082ccab-d9e6-4929-9762-d1935d66112c)
@@ -91,6 +91,11 @@ Celý projekt se nachází [zde](project_v2).
 
 **Sepnuty všechny spínače -> hodnota na binárním vstupu je pořád větší jak 90° -> servo natočeno na maximální hodnotu, neboli 90°**
 > ![image](https://github.com/user-attachments/assets/f33889f9-4dd4-4979-a1bf-fd7095cfbb49)
+
+> [!WARNING]
+> *Finální verze projektu*
+https://github.com/user-attachments/assets/6d9787b8-5add-498c-bd86-e4668a50bb70
+
 
 
 ## Reference
