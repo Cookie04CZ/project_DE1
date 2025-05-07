@@ -93,9 +93,8 @@ Celý projekt se nachází [zde](project_v2).
 > ![image](https://github.com/user-attachments/assets/f33889f9-4dd4-4979-a1bf-fd7095cfbb49)
 
 > [!WARNING]
-> *Finální verze projektu*
+> *Finální a funkční verze projektu* (video)\
 https://github.com/user-attachments/assets/6d9787b8-5add-498c-bd86-e4668a50bb70
-
 
 
 ## Reference
