@@ -93,7 +93,7 @@ Celý projekt se nachází [zde](project_v2).
 > ![image](https://github.com/user-attachments/assets/f33889f9-4dd4-4979-a1bf-fd7095cfbb49)
 
 > [!WARNING]
-> *Finální a funkční verze projektu* (video)\
+> *Finální a funkční verze projektu* (video)
 
 *Zkouška a analýza výstupního signálu*
 https://github.com/user-attachments/assets/bf4d2fc1-e8b4-49a5-a0fa-b571d2bbbaa5
