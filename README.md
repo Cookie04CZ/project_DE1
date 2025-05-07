@@ -94,6 +94,11 @@ Celý projekt se nachází [zde](project_v2).
 
 > [!WARNING]
 > *Finální a funkční verze projektu* (video)\
+
+*Zkouška a analýza výstupního signálu*
+https://github.com/user-attachments/assets/bf4d2fc1-e8b4-49a5-a0fa-b571d2bbbaa5
+
+*Finální funkční projekt*
 https://github.com/user-attachments/assets/6d9787b8-5add-498c-bd86-e4668a50bb70
 
 
